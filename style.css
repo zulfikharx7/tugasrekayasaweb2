@@ -1,0 +1,89 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+   min-height: 100vh;
+   background: url(genji1.webp);
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+   background-size: cover;
+   background-possition: center;
+}
+    
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color:#ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#ffffff;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+    background: #fff;
+    color: blue;
+}
+
+.welcome {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 1000;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.welcome h2 {
+    color: #fff;
+    font-size: big;
+}
+
+.welcome .explore {
+    border: none;
+    color:blue;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 1000;
+    margin-top: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.welcome .explore:hover {
+    background-color: blue;
+    color: #fff;
+}
